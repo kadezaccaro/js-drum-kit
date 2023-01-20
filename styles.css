@@ -47,3 +47,10 @@ kbd {
   color: #c0392b;
   transform: scale(1.05);
 }
+
+@media screen and (max-width: 900px) {
+  .keys {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
